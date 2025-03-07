@@ -1,7 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
-import Slider from "../components/Slider"; // Importing the slider component
-
+import Slider from "../components/Slider"; 
 const Insructor = () => {
   return (
     <div className="flex flex-col lg:flex-row p-6 max-w-6xl mx-auto">

@@ -3,25 +3,27 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
+import courseimg1 from '../assets/courseimg1.png';
+import courseimg2 from '../assets/courseimg2.png';
 
 const courses = [
   {
     id: 1,
     title: "Organizational Resource Management",
     price: "PKR 3000",
-    image: "/course1.jpg",
+    image: courseimg1,
   },
   {
     id: 2,
     title: "Market Research and Customer Insights",
     price: "PKR 3500",
-    image: "/course2.jpg",
+    image: courseimg2,
   },
   {
     id: 3,
     title: "Advanced Data Analytics",
     price: "PKR 4000",
-    image: "/course3.jpg",
+    image: courseimg1,
   },
 ];
 
@@ -40,11 +42,17 @@ const Slider = () => {
       className="mt-4"
     >
       {courses.map((course) => (
-        <SwiperSlide key={course.id} className="bg-gray-100 p-4 rounded-lg shadow-md">
-          <img src={course.image} alt={course.title} className="w-full h-40 object-cover rounded-md mb-2" />
-          <h3 className="text-lg font-semibold">{course.title}</h3>
-          <p className="text-green-600 font-bold">{course.price}</p>
-          <button className="bg-green-500 text-white px-4 py-2 rounded-lg mt-2">Enroll Now</button>
+        <SwiperSlide key={course.id} className="bg-gray-100 rounded-lg shadow-md">
+          <img 
+            src={course.image} 
+            alt={course.title} 
+            className="w-full h-40 object-cover rounded-t-lg" 
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold">{course.title}</h3>
+            <p className="text-green-600 font-bold">{course.price}</p>
+            <button className="bg-green-500 text-white px-4 py-2 rounded-lg mt-2">Enroll Now</button>
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>
