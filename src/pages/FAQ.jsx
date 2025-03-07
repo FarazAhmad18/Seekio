@@ -31,7 +31,6 @@ export default function FAQ() {
 
   return (
     <div className="relative bg-cover bg-center bg-no-repeat py-20 px-6">
-      {/* Dark overlay for better readability */}
       <div className=""></div>
 
       {/* FAQ Content */}

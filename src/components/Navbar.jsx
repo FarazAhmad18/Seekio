@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="bg-white border-b shadow-sm w-full fixed top-0 left-0 z-50 py-2">
-        <div className="w-full px-2 lg:px-6 flex justify-between items-center h-20">
+        <div className="w-full px-2 lg:px-6 flex justify-between items-center h-17">
           {/* Logo */}
           <div className="flex items-center text-xl">
             <img src={logo} alt="Seekio Logo" className="h-10" />
