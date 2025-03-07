@@ -4,13 +4,15 @@ import AboutUs from "./pages/Aboutus"
 import Instructor from './pages/Instructor'
 import FAQ from "./pages/FAQ"
 import CourseDesc from "./pages/CourseDesc"
+import ExploreCourses from "./pages/ExploreCourses"
 
 function App() {
   return (
 <>
 <Navbar/>
 {/* <Instructor/> */}
-<CourseDesc/>
+<ExploreCourses/>
+{/* <CourseDesc/> */}
 {/* <FAQ/> */}
 {/* <AboutUs/> */}
 <Footer/>

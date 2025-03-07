@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 import Slider from "../components/Slider";
 import courseImage from "../assets/course-desc.png"; // Add your course image here
 
-const CoursePage = () => {
+const CourseDesc = () => {
   return (
     <div className="max-w-6xl mx-auto p-4">
       {/* Course Header */}
@@ -76,4 +76,4 @@ const CoursePage = () => {
   );
 };
 
-export default CoursePage;
+export default CourseDesc;
