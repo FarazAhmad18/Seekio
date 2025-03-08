@@ -6,12 +6,13 @@ import FAQ from "./pages/FAQ"
 import CourseDesc from "./pages/CourseDesc"
 import ExploreCourses from "./pages/ExploreCourses"
 import Exam from './pages/Exam'
-
+import Payment from './pages/Payment'
 function App() {
   return (
 <>
 <Navbar/>
-<Exam/>
+<Payment/>
+{/* <Exam/> */}
 {/* <Instructor/> */}
 {/* <ExploreCourses/> */}
 {/* <CourseDesc/> */}

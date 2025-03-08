@@ -52,12 +52,12 @@ export default function Footer() {
         <div className="text-center mt-10">
           <h2 className="text-lg font-semibold">SEEKIO</h2>
           <p className="text-gray-600">&copy; 2025 SEEKIO. All rights reserved.</p>
-          <div className="flex justify-center space-x-4 mt-4 text-xl">
+          {/* <div className="flex justify-center space-x-4 mt-4 text-xl">
             <i className="fab fa-facebook cursor-pointer"></i>
             <i className="fab fa-twitter cursor-pointer"></i>
             <i className="fab fa-instagram cursor-pointer"></i>
             <i className="fas fa-rss cursor-pointer"></i>
-          </div>
+          </div> */}
         </div>
       </footer>
     );
