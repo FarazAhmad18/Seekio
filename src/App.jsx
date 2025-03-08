@@ -5,13 +5,15 @@ import Instructor from './pages/Instructor'
 import FAQ from "./pages/FAQ"
 import CourseDesc from "./pages/CourseDesc"
 import ExploreCourses from "./pages/ExploreCourses"
+import Exam from './pages/Exam'
 
 function App() {
   return (
 <>
 <Navbar/>
+<Exam/>
 {/* <Instructor/> */}
-<ExploreCourses/>
+{/* <ExploreCourses/> */}
 {/* <CourseDesc/> */}
 {/* <FAQ/> */}
 {/* <AboutUs/> */}
