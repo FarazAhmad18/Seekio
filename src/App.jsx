@@ -19,6 +19,7 @@ import LegalPage from "./pages/LegalPage"
 import CareersPage from "./pages/Careers"
 import CompanyPage from "./pages/CompanyPage"
 import CreateCourse from "./pages/CreateCourse"
+import Newsroom from "./pages/Newsroom"
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
 {/* <CareersPage/> */}
 {/* <CompanyPage/> */}
 {/* <Home/> */}
-<CreateCourse/>
+{/* <CreateCourse/> */}
+<Newsroom/>
 <Footer/>
 </>
   )

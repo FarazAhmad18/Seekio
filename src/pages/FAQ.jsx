@@ -30,7 +30,7 @@ export default function FAQ() {
   };
 
   return (
-    <div className="relative bg-cover bg-center bg-no-repeat py-20 px-6">
+    <div className="pt-20 relative bg-cover bg-center bg-no-repeat py-20 px-6">
       <div className=""></div>
 
       {/* FAQ Content */}

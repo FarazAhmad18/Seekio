@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from "reac
 import Slider from "../components/Slider"; 
 const Insructor = () => {
   return (
-    <div className="flex flex-col lg:flex-row p-6 max-w-6xl mx-auto">
+    <div className="pt-20 flex flex-col lg:flex-row p-6 max-w-6xl mx-auto">
       {/* Sidebar */}
       <aside className="w-full lg:w-1/4 bg-gray-100 p-4 rounded-xl shadow-md text-center">
         <img

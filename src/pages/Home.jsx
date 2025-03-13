@@ -203,7 +203,9 @@ const Home = () => {
       <section className="py-10 px-4 md:px-16 bg-indigo-700 text-white text-center mt-10">
         <h3 className="text-2xl font-semibold mb-4">Still thinking?</h3>
         <p className="mb-4 text-base">Explore a world of knowledge and career growth with Seekio. Start today!</p>
-        <Button className="bg-white text-indigo-700 hover:bg-gray-100">Explore Courses</Button>
+        <Button className="bg-blue-500 hover:bg-blue-600 text-white font-medium px-6 py-2 rounded-md transition duration-300">
+  Explore Courses
+</Button>
       </section>
     </div>
   );
