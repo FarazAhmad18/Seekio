@@ -1,8 +1,8 @@
 export default function Footer() {
     return (
       <footer className="bg-white border-t py-10 px-6 text-gray-800 text-sm">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center md:text-left">
-          <div>
+        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-center md:text-left">
+          {/* <div>
             <h3 className="font-semibold">Product</h3>
             <ul className="mt-2 space-y-1">
               <li>Business</li>
@@ -10,7 +10,7 @@ export default function Footer() {
               <li>Classrooms</li>
               <li>Newcomers</li>
             </ul>
-          </div>
+          </div> */}
           <div>
             <h3 className="font-semibold">Learning</h3>
             <ul className="mt-2 space-y-1">

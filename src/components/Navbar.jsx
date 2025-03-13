@@ -51,7 +51,7 @@ export default function Navbar() {
       </nav>
       
       {/* Add margin to prevent content from being hidden */}
-      <div className="mt-24"></div>
+      {/* <div className=""></div> */}
     </>
   );
 }

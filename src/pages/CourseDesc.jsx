@@ -5,7 +5,7 @@ import courseImage from "../assets/course-desc.png"; // Add your course image he
 
 const CourseDesc = () => {
   return (
-    <div className="max-w-6xl mx-auto p-4">
+    <div className="pt-20 max-w-6xl mx-auto p-4">
       {/* Course Header */}
       <div className="bg-blue-100 p-6 rounded-xl flex flex-col lg:flex-row items-center gap-6">
        

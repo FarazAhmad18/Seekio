@@ -20,14 +20,14 @@ const CoursePayment = () => {
       [name]: type === "checkbox" ? checked : value,
     });
   };
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Payment Submitted:", formData);
   };
 
   return (
-    <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg flex flex-col md:flex-row p-6">
+    <div className="pt-20 max-w-4xl mx-auto bg-white shadow-lg rounded-lg flex flex-col md:flex-row p-6">
       {/* Left - Course Details */}
       <div className="w-full md:w-1/2 border-r p-6">
         <h2 className="text-xl font-bold text-blue-700">

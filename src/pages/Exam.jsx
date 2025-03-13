@@ -38,7 +38,7 @@ export default function ProductManagementExam() {
 
       {/* Question */}
       <div>
-        <h3 className="text-lg sm:text-xl font-semibold mb-2">Question 10/10</h3>
+        <h3 className="pt-20 text-lg sm:text-xl font-semibold mb-2">Question 10/10</h3>
         <p className="text-gray-700 mb-4 text-sm sm:text-base">
           A product manager is tasked with launching a new mobile app aimed at
           improving personal finance management. The manager first defines a
