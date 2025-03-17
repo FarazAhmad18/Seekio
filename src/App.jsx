@@ -27,7 +27,7 @@ function App() {
   return (
 <>
 <Navbar/>
-{/* <Payment/> */}
+<Payment/>
 {/* <Exam/> */}
 {/* <Instructor/> */}
 {/* <ExploreCourses/> */}

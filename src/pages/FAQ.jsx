@@ -13,7 +13,7 @@ const faqs = [
     answer: "Yes, Seekio’s certificates are widely recognized and valued by IT professionals and companies.",
   },
   {
-    question: "How do I enroll in a course?",
+    question: "How do i enroll in a course?",
     answer: "You can enroll in a course by signing up on Seekio’s platform, selecting your preferred course, and completing the enrollment process.",
   },
   {
