@@ -22,12 +22,14 @@ import CreateCourse from "./pages/CreateCourse"
 import Newsroom from "./pages/Newsroom"
 import CertificatePage from "./pages/CertificatePage"
 import NotificationPage from "./pages/NotificationPage"
+import StudentManagement from "./pages/StudentManagement"
 
 function App() {
   return (
 <>
-<Navbar/>
-<Payment/>
+<StudentManagement/>
+{/* <Navbar/> */}
+{/* <Payment/> */}
 {/* <Exam/> */}
 {/* <Instructor/> */}
 {/* <ExploreCourses/> */}
@@ -48,8 +50,8 @@ function App() {
 {/* <CreateCourse/> */}
 {/* <Newsroom/> */}
 {/* <CertificatePage/> */}
-<NotificationPage/>
-<Footer/>
+{/* <NotificationPage/> */}
+{/* <Footer/> */}
 </>
   )
 }

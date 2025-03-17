@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        adminHover: '#8a6cec'
+      }
+    },
   },
   plugins: [],
 }

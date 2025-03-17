@@ -5,7 +5,7 @@ import aboutImage3 from "../assets/aboutImage3.png";
 
 const AboutUs = () => {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-2 text-gray-900">
+    <div className="pt-20 max-w-6xl mx-auto px-6 py-2 text-gray-900">
       <h2 className="text-5xl font-bold mb-12 text-center">About Us</h2>
 
       {/* Section 1: WHO ARE WE */}
